@@ -1,0 +1,30 @@
+# Core
+Django==5.0.4
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+django-environ==0.11.2
+
+# Auth
+djangorestframework-simplejwt==5.3.1
+
+# Database
+psycopg2-binary==2.9.11
+
+# Cache & Queue
+redis==5.0.4
+celery==5.4.0
+django-redis==5.4.0
+
+# AI
+anthropic==0.26.0
+
+# Utilities
+Pillow==11.1.0
+django-filter==24.2
+
+# Dev
+django-extensions==3.2.3
+
+# Prod
+gunicorn==22.0.0
+whitenoise==6.7.0

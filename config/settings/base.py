@@ -123,6 +123,7 @@ CELERY_TASK_SERIALIZER = "json"
 
 # AI
 ANTHROPIC_API_KEY = env("ANTHROPIC_API_KEY", default="")
+GEMINI_API_KEY = env("GEMINI_API_KEY", default="")
 
 TEMPLATES = [
     {
